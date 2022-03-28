@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="src/styles/style.css">
+    <script src="src/script.js" type="text/javascript" defer></script>
+    <meta charset="UTF-8">
+    <title>P O K E D E X</title>
+</head>
+
+<body>
+    <form action="" onsubmit="searchOnPokeapi(event)">
+        <input type="text" name="pokemon" autocomplete="off">
+    </form>
+    <div data-poke-card class="poke-card">
+        <div data-poke-name class="pokedex">Pokedex</div>
+        <div data-poke-image-container  class="container">
+            <img data-poke-image class="poke-image" src="src/media/psyduck_png.png">
+        </div>
+        <!-- <div data-poke-id></div> -->
+        <div data-poke-types class="poke-type"></div>
+        <div data-poke-stats class="poke-stats"></div>
+    </div>
+</body>
+
+</html>
